@@ -8,6 +8,12 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-pedantic-errors",
+                "-Wall", // Set warnings to maximum
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
+                "-Werror", // Treat warnings as errors
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
