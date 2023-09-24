@@ -14,7 +14,7 @@ int main()
     std::cout << "\n";
 
     // Let's talk over the basics
-    // [[maybe_unused]] prevents 'variable not used' errors
+    // [[maybe_unused]] prevents 'variable not used' errors.
     [[maybe_unused]] int a; // no initializer (default initialization)
     // std::cout << a; would fail as unlike in Golang, there is no default initializer/zero value.
     [[maybe_unused]] int b = 5; // initializer after equals sign ( copy initialization)
