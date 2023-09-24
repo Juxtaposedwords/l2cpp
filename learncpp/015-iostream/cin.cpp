@@ -23,7 +23,6 @@ int main()
     std::cout << "You entered " << x << " and " << y << '\n';
     // Which more experienced audience goers will know as:
     std::printf("You entered %d and %d\n", x, y);
-    
 
     return 0;
 }
