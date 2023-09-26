@@ -13,8 +13,8 @@ int main() {
   // {0};
   int x;  // this variable is uninitialized
 
-  doNothing(
-      x);  // make the compiler think we're assigning a value to this variable
+  // make the compiler think we're assigning a value to this variable
+  doNothing(x);
 
   // print the value of x to the screen (who knows what we'll get, because x is
   // uninitialized)
