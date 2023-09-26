@@ -21,8 +21,8 @@ int main() {
   std::cout << x << '\n';
 
   // Implementation-defined behavior
-  std::cout << sizeof(int)
-            << '\n';  // print how many bytes of memory an int value takes
+  // print how many bytes of memory an int value takes
+  std::cout << sizeof(int) << '\n';
 
   // Prints 4 or 2 depending on the compiler!
 

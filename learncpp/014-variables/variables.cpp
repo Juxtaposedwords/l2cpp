@@ -23,10 +23,10 @@ int main() {
       6);  // initializer in parenthesis (Direct initialization)
 
   // List initialization methods (C+11) (preferred)
-  [[maybe_unused]] int d{
-      7};  // initializer in braces (direct list initialization)
-  [[maybe_unused]] int e = {
-      8};  // initializer in braces after equal sign  (copy list initialization)
+  // initializer in braces (direct list initialization)
+  [[maybe_unused]] int d{7};
+  // initializer in braces after equal sign  (copy list initialization)
+  [[maybe_unused]] int e = {8};
   // std::cout << e;  // would fail as list are not printable
   int f{};         // initializer is empty braces {value initialization}
   std::cout << f;  // prints '0' (like Go zero values)
